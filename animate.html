@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngClassSample">
+<head>
+  <meta charset="UTF-8">
+  <title>ng-class</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <input id="setbtn" type="button" value="set" ng-click="myVar='my-class'">
+    <input id="clearbtn" type="button" value="clear" ng-click="myVar=''">
+    <br>
+    <span class="base-class" ng-class="myVar">Sample Text</span>
+  </div>
+</body>
+</html>

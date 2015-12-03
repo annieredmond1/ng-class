@@ -1,0 +1,53 @@
+.strike {
+    text-decoration: line-through;
+}
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.has-error {
+    color: red;
+    background-color: yellow;
+}
+.orange {
+    color: orange;
+}
+
+
+
+
+.well {
+  -ms-transform: rotate(-7deg); /* IE 9 */
+  -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+  transform: rotate(-7deg);
+
+  position: relative;
+  left:-1rem;
+  top: 0rem;
+}
+
+.well:hover {
+  top: -0.618rem;
+  left: -0.382rem;
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.well {
+  /* ... */
+  transition: all 300ms ease-in-out;
+}
+
+
+
+.base-class {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.base-class.my-class {
+  color: red;
+  font-size:3em;
+}
