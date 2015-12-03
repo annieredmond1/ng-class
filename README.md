@@ -19,3 +19,7 @@
 **custom**
 
 1. Make a button that when you click on it, slides over and reveals a button that says "confirm" and when you click that, have an alert appear.
+
+**animate.css**
+
+1. Use [Animate.css](https://daneden.github.io/animate.css/) to do an animation.
